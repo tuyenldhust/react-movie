@@ -10,7 +10,7 @@ const Actor = props => {
         src={
           props.actor.profile_path
             ? `${IMAGE_BASE_URL}${POSTER_SIZE}${props.actor.profile_path}`
-            : "./images/no_image.jpg"
+            : "/react-movie/images/no_image.jpg"
         }
         alt="actorthumb"
       />

@@ -9,7 +9,7 @@ const MovieThumb = props => {
       {props.clickable ? (
         <Link
           to={{
-            pathname: `/${props.movieId}`,
+            pathname: `/react-movie/${props.movieId}`,
             movieName: `${props.movieName}`
           }}
         >
