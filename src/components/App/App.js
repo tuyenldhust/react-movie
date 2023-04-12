@@ -12,8 +12,8 @@ class App extends React.Component {
         <React.Fragment>
           <Header />
           <Switch>
-            <Route path="/" component={Home} exact />
-            <Route path="/:movieId" component={Movie} exact />
+            <Route path="/react-movie" component={Home} exact />
+            <Route path="/react-movie/:movieId" component={Movie} exact />
             <Route component={NotFound} />
           </Switch>
         </React.Fragment>
